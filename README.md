@@ -72,6 +72,7 @@
 - PV，Page View，页面访问的次数，包括单个多次访问，所以数量比UV大
 - 用Redis的Hyperloglog来实现，用小于16kb的内存实现不同数据的数量，误差低于0.81%
 
-#### 小结
+---
+## 小结
 - 用Autowired导入template会报错，使用Resource更合适
 - 用StringTemplate更好因为可以自己控制字符的使用，以及合适的json转换。
